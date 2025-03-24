@@ -7,8 +7,8 @@ REDIRECT_URI = "https://example.com/"
 
 sp = spotipy.Spotify(
     auth_manager=SpotifyOAuth(
-        client_id="794d78e4aa214a1d8c475a0e83da7402",
-        client_secret="a3465949f1ad4ffaaa4c90b7d79697da",
+        client_id="",
+        client_secret="",
         redirect_uri=REDIRECT_URI,
         scope=scope,
         cache_path="token.txt"))
